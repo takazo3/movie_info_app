@@ -70,11 +70,7 @@ const PasswordReset = () => {
                         onChange={event => setPassword(event.target.value)}
                         required
                     />
-
-                    <InputError
-                        messages={errors.password}
-                        className="mt-2"
-                    />
+                    <InputError messages={errors.password} className="mt-2"/>
                 </div>
 
                 {/* Confirm Password */}
